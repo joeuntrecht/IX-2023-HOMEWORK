@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+   
+}
+#first{
+    text-align: center;
+    background: rgb(40, 40, 40);
+    padding: 0cm;
+    margin: 0;
+}
+#second{
+    text-align: center;
+    background: rgb(181, 180, 180);
+    padding: 0cm;
+    display: flex
+}
+#third{
+    text-align: center;
+    background: rgb(40, 40, 40);
+    padding: 0cm;
+    margin: 0;
+}
+#fourth{
+    text-align: center;
+    color: black;
+    background-color: grey;
+    margin: 0;
+}
+#header{
+    text-align: center;
+    background: rgb(181, 180, 180);
+    padding: 1cm;
+}
+
+.box {
+    display: inline-block;
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+  }
+  .box img {
+    width: 100%;
+    height: auto;
+  }
+h1{
+    text-align: center;
+    color: white;
+}
+p{
+    color: rgb(1, 0, 0);
+}
+end{
+    color:white
+}
