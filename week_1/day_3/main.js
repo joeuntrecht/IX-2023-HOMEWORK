@@ -189,6 +189,25 @@ function printDate(){
 }
 printDate();
 
+let randomObjectArray = [
+    {
+      name: 'Cam',
+      surname: 'Kirkpatrick',
+      goalsScored: 5,
+    },
+    {
+      name: 'Michelle',
+      surname: 'Visser',
+      goalsScored: 10,
+    },
+    {
+      name: 'John',
+      surname: 'Doe',
+      goalsScored: 25,
+    },
+  ];
 function higherThanTen(arr){
-    
+    let newArray = arr.filter(people => people.goalsScored <= 10)
+    return newArray;
 }
+console.log(higherThanTen(randomObjectArray));
