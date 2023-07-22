@@ -41,7 +41,7 @@ function App() {
         {pokemon.map((poke) => {
           return <div key = {poke.name}>
             {poke.name}
-            </div>;
+            </div>
         })}
       </div>
     </div>
