@@ -14,10 +14,6 @@ import LoginPage from './components/auth/LoginPage';
 import RegisterPage from './components/auth/RegisterPage';
 import Navbar from './components/common/NavBar';
 
-
-
-
-
 function App() {
   const [user, setUser] = useState(null);
 
